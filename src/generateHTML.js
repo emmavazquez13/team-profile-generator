@@ -92,4 +92,3 @@ module.exports = team => {
     `;
 
 };
-

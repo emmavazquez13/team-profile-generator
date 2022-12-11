@@ -248,9 +248,9 @@ const promptIntern = () => {
 const buildTeam = () => {
     console.log(`Done Building my TEAM`);
 
-    if(!fs.existsSync(distDIR)) {
-        fs.mkdirSync(distDIR)
+    if(!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
     }
-    fs.writeFileSync(distPath, generate(teamMembers));
+    fs.writeFileSync(outputPath, generate(teamMembers));
 }
 promptManager();
