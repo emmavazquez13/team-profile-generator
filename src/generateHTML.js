@@ -6,7 +6,7 @@ const generateTeam = (team) => {
     const generateManager = manager => {
         console.log(manager);
         let managerHtml = `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 8rem;">
             <div class="card-header">
             ${manager.getName()} <br/>
             <i class="fas fa-mug-hot"</i>Manager</div>
